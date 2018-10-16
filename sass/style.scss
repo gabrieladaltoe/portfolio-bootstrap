@@ -1,0 +1,32 @@
+
+body{
+font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3 {
+    // font-family: 'VT323', monospace;
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+.nav-primary .navbar-collapse{
+    justify-content: flex-end;
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+.carousel img{
+    height: 80vh;
+    object-fit: cover;
+    vertical-align: top;
+}
+
+.sobre{
+    background-color: #272727;
+    height: 35vh;
+    padding: 8vh 0;
+
+    & h3,p{
+        color: #fff;
+        text-align: center;
+    }
+
+}
