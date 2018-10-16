@@ -1,3 +1,3 @@
-# portfolio-bootstrap
+# Portfólio pessoal
 
-Projeto do {reprograma} a partir do uso de Bootstrap. 
+Projeto do {reprograma} a partir da aplicação de bootstrap. 
