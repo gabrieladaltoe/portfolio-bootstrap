@@ -1,24 +1,84 @@
 body {
-  font-family: 'Open Sans', sans-serif; }
+  font-family: 'Krub', sans-serif;
+}
 
-h1, h2, h3 {
-  font-family: 'Chakra Petch', sans-serif; }
+h1, h2, h3, h4 {
+  font-family: 'Chakra Petch', sans-serif;
+}
+
+.title {
+  text-align: center;
+  margin: 20px 0;
+}
 
 .nav-primary .navbar-collapse {
-  justify-content: flex-end;
-  font-family: 'Chakra Petch', sans-serif; }
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  font-family: 'Chakra Petch', sans-serif;
+}
 
 .carousel img {
   height: 80vh;
-  object-fit: cover;
-  vertical-align: top; }
+  -o-object-fit: cover;
+     object-fit: cover;
+  vertical-align: top;
+}
 
 .sobre {
-  background-color: #272727;
-  height: 35vh;
-  padding: 8vh 0; }
-  .sobre h3, .sobre p {
-    color: #fff;
-    text-align: center; }
+  background-color: #f5f5f5;
+  padding: 8vh 0;
+}
 
+.sobre h3, .sobre p {
+  text-align: center;
+}
+
+.sobre h4 {
+  font-size: 1rem;
+}
+
+.progress-bars {
+  width: 80vh;
+  margin: 0 auto;
+}
+
+.shadow-primary {
+  -webkit-box-shadow: 0 0.5rem 1rem rgba(148, 148, 148, 0.4);
+          box-shadow: 0 0.5rem 1rem rgba(148, 148, 148, 0.4);
+}
+
+.card-img {
+  width: 60px;
+  margin: 10px 0;
+}
+
+.contato {
+  background-image: url(../img/contato-fundo.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  padding: 30px 0;
+}
+
+.formulario-contato {
+  width: 80vh;
+  margin: 0 auto;
+}
+
+span.error {
+  color: red;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  margin-top: 10px;
+}
+
+.error {
+  border-color: red;
+}
+
+.footer-section {
+  background-color: #525252;
+}
 /*# sourceMappingURL=style.css.map */
