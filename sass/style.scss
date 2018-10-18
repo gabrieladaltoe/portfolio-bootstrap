@@ -1,28 +1,26 @@
-
+//geral
 body{
     font-family: 'Krub', sans-serif;
 }
-
 h1, h2, h3, h4 {
     // font-family: 'VT323', monospace;
     font-family: 'Chakra Petch', sans-serif;
 }
-
 .title{
     text-align: center;
     margin: 20px 0;
 }
+//nav
 .nav-primary .navbar-collapse{
     justify-content: flex-end;
     font-family: 'Chakra Petch', sans-serif;
 }
-
 .carousel img{
     height: 80vh;
     object-fit: cover;
     vertical-align: top;
 }
-
+//sobre
 .sobre{
     background-color: #f5f5f5;
     
@@ -34,26 +32,55 @@ h1, h2, h3, h4 {
 
     h4{
         font-size: 1rem;
+        line-height: 1.6;
     }
-
 }
-
 .progress-bars{
-    width: 80vh;
+    width: 70vw;
     margin: 0 auto;
 }
-
-
+//serviços
 .shadow-primary {
     box-shadow: 0 0.5rem 1rem rgba(148, 148, 148, 0.4);
 }
-
 .card-img{
     width: 60px;
     margin: 10px 0;
 }
+//portfolio
+.portfolio{
+    // height: 650px;
 
-
+    img{
+        object-fit: cover;
+        width:100%;
+        height: 300px; 
+        vertical-align: middle;
+    }
+}
+.img-port{
+    padding: 0;
+}
+.portfolio-box-caption{
+    position: absolute;
+    opacity: 0;
+    top:0;
+    width:100%;
+    height: 300px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    padding: 4vw;
+    text-align: center;
+    &:hover{
+        opacity: 1;
+        background-color: rgba(0,0,0, .8);
+        h3,p{
+            color: #fff;
+        }
+    }
+}
+//form
 .contato{
     background-image: url(../img/contato-fundo.jpg);
     background-size: cover;                      
@@ -61,12 +88,10 @@ h1, h2, h3, h4 {
     background-position: top center; 
     padding: 30px 0;
 }
-
 .formulario-contato{
     width: 80vh;
     margin: 0 auto;
 }
-
 span.error {
     color: red;
     font-size: 12px;
@@ -74,11 +99,13 @@ span.error {
     letter-spacing: 0.5px;
     margin-top: 10px;   
 }
-
 .error {
     border-color:red;
 }
-
-.footer-section{
-    background-color: #525252;
+//footer
+.logos-footer img {
+    width: 32px;
+    margin-left: 3vh;
 }
+
+
