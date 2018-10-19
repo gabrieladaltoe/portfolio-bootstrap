@@ -261,25 +261,26 @@
             <div class="container">
                 <h3 class="title">Contato</h3>
 
-                <!-- formulario -->
+                <div class="row">
+                    <!-- formulario -->
 
-                <form class="formulario-contato" name="contact" netlify>
-                    <div class="form-group">
-                        <label for="Name">Nome</label>
-                        <input type="text" name="name" class="form-control" id="Name" placeholder="Nome">
-                    </div>
-                    <div class="form-group">
-                        <label for="exampleFormControlInput1">E-mail</label>
-                        <input type="email" name="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-                    </div>
-                    <div class="form-group">
-                        <label for="exampleFormControlTextarea1">Sua mensagem</label>
-                        <textarea class="form-control" name="text" id="exampleFormControlTextarea1" rows="3"></textarea>
-                    </div>
-                    <button class="btn btn-outline-dark">Enviar</button>
-                    <!-- <input class="btn btn-outline-dark" type="submit" value="Enviar"> -->
-                </form>
-
+                    <form class="formulario-contato col-lg-6 col-md-12 col-sm-12" action="/sucess" name="contact" netlify>
+                        <div class="form-group">
+                            <label for="Name">Nome</label>
+                            <input type="text" name="name" class="form-control" id="Name" placeholder="Nome">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlInput1">E-mail</label>
+                            <input type="email" name="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea1">Sua mensagem</label>
+                            <textarea class="form-control" name="text" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div>
+                        <button class="btn btn-outline-dark">Enviar</button>
+                        <!-- <input class="btn btn-outline-dark" type="submit" value="Enviar"> -->
+                    </form>
+                </div>
             </div>
         </section>
     </main>
