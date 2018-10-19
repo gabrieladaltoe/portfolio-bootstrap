@@ -44,8 +44,7 @@ h1, h2, h3, h4 {
 //sobre
 .sobre{
     background-color: #f5f5f5;
-    
-    padding: 8vh 0;
+    padding: 80px 0;
 
     & h3,p{
         text-align: center;
@@ -63,6 +62,10 @@ h1, h2, h3, h4 {
 
 
 //serviços
+
+.servicos{
+    padding-top: 80px;
+}
 .shadow-primary {
     box-shadow: 0 0.5rem 1rem rgba(148, 148, 148, 0.4);
 }
@@ -73,6 +76,7 @@ h1, h2, h3, h4 {
 //portfolio
 .portfolio{
     // height: 650px;
+    padding-top: 80px;
 
     img{
         object-fit: cover;
